@@ -1,0 +1,34 @@
+#info-content {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+#info-content p {
+    font-size: 1.5rem;
+}
+
+#info-content ul {
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#info-content ol {
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    line-height: 1.5;
+}
+
+#info-content a {
+    text-decoration: none;
+    color: red;
+}
+
+#info-content h3 {
+    font-size: 1.8em;
+    text-decoration: underline;
+    margin-bottom: 3px;
+}

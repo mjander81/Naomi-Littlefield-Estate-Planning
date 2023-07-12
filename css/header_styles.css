@@ -323,8 +323,9 @@ HEADER RESPONSIVE STYLE ELEMENTS
     }
 
     .slogan-text-xs {
-        color: var(--bright-font-color);
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+        /* color: var(--bright-font-color); */
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); */
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
         font-size: 1.1rem;
         margin-bottom: 3px;
     }
@@ -338,10 +339,11 @@ HEADER RESPONSIVE STYLE ELEMENTS
     }
 
     .nav-xs-only p {
-            color: var(--bright-font-color);
+            /* color: var(--bright-font-color); */
             font-size: 1.1rem;
             /* font-weight: bold; */
-            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+            /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); */
+            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
             width: 100%;
             margin-left: 3%;
             margin-right: 8%;
@@ -402,8 +404,10 @@ HEADER RESPONSIVE STYLE ELEMENTS
     }
 
     .slogan-text-sm {
-        color: var(--bright-font-color);
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+        /* color: var(--bright-font-color); */
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); */
+        color: black;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
         font-size: 1.4rem;
         margin-bottom: 3px;
     }
@@ -425,10 +429,12 @@ HEADER RESPONSIVE STYLE ELEMENTS
     }
 
     .nav-sm-only p {
-        color: var(--bright-font-color);
+        /* color: var(--bright-font-color); */
+        color: black;
         font-size: 1.3rem;
         /* font-weight: bold; */
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); */
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
         width: 100%;
         line-height: 1.1;
         margin-left: 1rem;
@@ -522,106 +528,5 @@ HEADER RESPONSIVE STYLE ELEMENTS
 
     .toggle-menu-lg {
         display: none;
-    }
-}
-
-/***************************************************
-HOME PAGE STYLING
-***************************************************/
-
-main {
-    margin: 2%;
-}
-
-#main-content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* position: relative; */
-}
-
-#main-content p {
-    font-size: 1.5rem;
-}
-
-#main-content p>a {
-    /* display: inline-block; */
-    text-decoration: none;
-    /* font-size: inherit; */
-    color:red;
-    /* background-color: transparent; */
-    /* border: none; */
-}
-
-.main-portrait {
-    max-width: 40%;
-    width:fit-content;
-    /* height: min-content; */
-    min-width: 0;
-    margin: 2rem 0;
-}
-
-.bullet-list {
-    max-width: 60%;
-    justify-content: center;
-    align-self: center;
-    font-size: 2.5rem;
-    padding-right: 5%;
-    padding-left: 7%;
-    margin: 2rem 0;
-}
-
-.bullet-list li:not(:last-child) {
-    margin-bottom: 2rem;
-}
-
-/***************************************************************
-HOME PAGE RESPONSIVE STYLE ELEMENTS
-***************************************************************/
-
-/* XS <= 366px */
-@media (max-width: 366px) {
-    .bullet-list-xs {
-        font-size: 3.5vw;
-        max-width: 90%;
-        margin: 1rem auto 1.5rem auto;
-        padding: 0 0 0 6%;
-    }
-
-    .main-portrait-xs {
-        max-width: 90%;
-        margin: 2rem auto 1rem auto;
-    }
-}
-
-/* SM <= 500px */
-
-@media (min-width: 366px) and (max-width: 500px) {
-    .bullet-list-sm {
-        font-size: 3vw;
-        max-width: 90%;
-        margin: 1rem auto 1.5rem auto;
-        padding: 0 0 0 6%;
-    }
-
-    .main-portrait-sm {
-        max-width: 90%;
-        margin: 2rem auto 1rem auto;
-    }
-}
-
-/* MD <= 900px */
-
-@media (min-width: 500px) and (max-width: 900px) {
-    .bullet-list-md {
-        font-size: 2.2vw;
-    }
-}
-
-/* LG > 900px */
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .bullet-list-lg {
-        font-size: 2.1vw;
     }
 }

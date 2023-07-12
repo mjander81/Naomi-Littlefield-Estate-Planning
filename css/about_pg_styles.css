@@ -1,0 +1,66 @@
+#about-content {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+   
+}
+
+#about-portrait-img {
+    float: left;
+    margin-right: 1rem;
+}
+
+#about-cosmo-img {
+    -webkit-shape-outside: url("../images/Cosmo_LG.jpg");
+    shape-outside: url("../images/Cosmo_LG.jpg");
+    shape-image-threshold: 0.5;
+    -webkit-shape-image-threshold: 0.5;
+    float: right;
+}
+
+.about-text {
+    margin-right: 1rem;
+}
+
+@media (max-width: 360px) {
+    .about-img-xs {
+        max-height: 84px;
+    }
+
+    .about-text-xs {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 500px) {
+    .about-img-sm {
+        max-height: 120px;
+    }
+
+    .about-text-sm {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .about-img-md {
+        max-height: 180px;
+    }
+
+    .about-text-md {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .about-img-lg {
+        max-height: 240px;
+    }
+
+    .about-text-lg {
+        font-size: 1.7rem;
+    }
+}
+
