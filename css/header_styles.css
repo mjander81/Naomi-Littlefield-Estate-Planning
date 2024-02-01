@@ -11,6 +11,7 @@ GLOBAL DEFAULTS
 /* color definitions */
 :root {
     --bright-font-color: #ffbb00;
+    --dim-font-color: rgb(255, 242, 204);
     --bg-color: rgb(255, 242, 204);
     /* --fa-primary-color: var(--bright-font-color); */
 }
@@ -162,7 +163,7 @@ header img {
     display: inline-block;
     text-decoration: none;
     font-size: 1.9rem;
-    color: var(--bright-font-color);
+    color: var(--dim-font-color);
     height: 100%;
     width: 3rem;
     margin-right: .1rem;
@@ -240,7 +241,7 @@ header img {
 
 .menu-toggle-button {
     display: inline-block;
-    color:var(--bright-font-color);
+    color:var(--dim-font-color);
     font-size: 2.5rem;
     background-color: transparent;
     border: none;
@@ -261,7 +262,7 @@ header img {
     text-align: left;
     flex: 1;
     background-color: black;
-    color: var(--bright-font-color);
+    color: var(--dim-font-color);
 }
 
 button[id=navbar-home-btn]:active>h1 {
@@ -300,7 +301,8 @@ HEADER RESPONSIVE STYLE ELEMENTS
 
     .navbar-xs a>h1 {
         display: inline-block;
-        color:var(--bright-font-color);
+        /* color:var(--bright-font-color); */
+        color: var(--dim-font-color);
         text-shadow: none;
         font-size: 1.2rem;
         margin: auto 0 auto .5rem;
@@ -377,7 +379,8 @@ HEADER RESPONSIVE STYLE ELEMENTS
     
     .navbar-sm a>h1 {
         display: inline-block;
-        color:var(--bright-font-color);
+        /* color:var(--bright-font-color); */
+        color: var(--dim-font-color);
         text-shadow: none;
         font-size: 1.3rem;
         margin: auto 0 auto .5rem;
